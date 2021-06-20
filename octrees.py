@@ -26,7 +26,8 @@ Can be constructed in two ways:
 """
 
 import heapq
-
+import sys
+sys.path.append('./octrees')
 from geometry import *
 from inner.octree_inner import *
 

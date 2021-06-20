@@ -21,8 +21,7 @@ Octrees
 
 (C) James Cranch 2013--2021
 """
-
-from octrees import Octree, octree_from_list
+from octrees.octrees import Octree, octree_from_list
 from blob_octrees import BlobOctree
 
 import geometry
